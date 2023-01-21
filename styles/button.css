@@ -1,0 +1,16 @@
+.btn:hover {
+    width: 200px;
+    box-sizing: border-box;
+    padding: 0.6em 3em 0.6em 0.2em;
+    border: none;
+    transform: translateX(30px);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1em;
+    background-color: #FFFFFF;
+    border-radius: 2em;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    transition: max-width 1s ease-in;
+}
