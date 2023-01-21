@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #F7F6FF;
-    max-width: 100px;
+    width: 100px;
     height: 100vh;
     position: fixed;
     gap: 30px;
@@ -13,7 +13,6 @@
     overflow: hidden;
     box-sizing: border-box;
 }
-
 .link {
     display: flex;
     align-items: flex-start;
@@ -21,34 +20,41 @@
     text-decoration: none;
     text-transform: capitalize;
     text-align: center;
+    padding: 10px 10px;
 
 }
+.link:first-child {
+	margin-top: 10px;
+}
 
-.sidenav > img:first-child {
+/* .sidenav > .logo {
+    width: 68px;
     padding-bottom: 20px;
     border-bottom: 2px solid #C4C4C4;
-}
+    box-sizing: border-box;
+} */
 .link > img {
     display: block;
 }
-
 .link span {
     display: none;
+}
+hr {
+    width: 90%;
+    border: 2px solid #C4C4C4;
 }
 .sidenav > .link:hover {
     color: #02577A;
 }
 .sidenav:hover {
-    max-width: 206px;
-    transition: max-width 1s ease-in;
+    width: 206px;
+    transition: max-width 0.2s ease-in;
 }
 .sidenav:hover > .link {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
-
 .sidenav:hover > .link span {
     margin-left: 10px;
     display: inline-block;
