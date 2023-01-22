@@ -27,12 +27,6 @@
 	margin-top: 10px;
 }
 
-/* .sidenav > .logo {
-    width: 68px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #C4C4C4;
-    box-sizing: border-box;
-} */
 .link > img {
     display: block;
 }
@@ -48,7 +42,7 @@ hr {
 }
 .sidenav:hover {
     width: 206px;
-    transition: max-width 0.2s ease-in;
+    transition: 0.5s ease-in;
 }
 .sidenav:hover > .link {
     display: flex;
